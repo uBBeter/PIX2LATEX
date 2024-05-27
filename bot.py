@@ -6,7 +6,7 @@ from telebot.async_telebot import AsyncTeleBot
 from getTex import getTex 
 from PIL import Image 
 import re 
-TOKEN = '7177373509:AAFK9461IruNQNdeNOGFARK7PyLk81WvYBo'  # TODO: Change token 
+TOKEN = '7262268963:AAGVYgBIoD0yS3RUv00un6epGFUl9_JUHhM'
 bot = AsyncTeleBot(TOKEN) 
 def escape_markdown_v2(text): 
     special_characters = r'\_*[]()~`>#+-=|{}.!' 
